@@ -4,7 +4,7 @@ Welcome to Keo's Image AI V2.1, a web application designed to generate images ba
 
 ## Website
 
-https://keolotso.github.io/KeosAIV2.1/
+https://keolotso.github.io/KeosAIV2/
 
 ## Features
 
