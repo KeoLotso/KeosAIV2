@@ -21,6 +21,13 @@
         <input type="text" id="prompt" placeholder="Enter prompt" />
         <input type="number" id="width" placeholder="Width" />
         <input type="number" id="height" placeholder="Height" />
+        <select id="style">
+            <option value="none">None (Default)</option>
+            <option value="pixelArt">Pixel Art</option>
+            <option value="texture">Texture</option>
+            <option value="oiltpainting">Oil Painting</option>
+            <option value="illustration">Illustration</option>
+        </select>
         <button id="generateBtn">Generate</button>
         <div id="loading" class="hidden">Generating images...</div>
     </div>
