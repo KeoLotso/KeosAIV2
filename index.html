@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keos Image AI V2 (BETA)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu hidden" id="menu">
+        <div id="v1-link">V1</div>
+        <div class="current-version">V2</div>
+    </div>
+    <h1 style="margin-bottom: 40px;">Keos Image AI V2</h1>
+    <div id="generation-tab">
+        <input type="text" id="prompt" placeholder="Enter prompt" />
+        <input type="number" id="width" placeholder="Width" />
+        <input type="number" id="height" placeholder="Height" />
+        <button id="generateBtn">Generate</button>
+        <div id="loading" class="hidden">Generating images...</div>
+    </div>
+    <hr class="divider">
+    <div id="library-container">
+        <h2>Library</h2>
+        <div id="library"></div>
+        <div id="no-images" class="hidden">No images yet😢</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
