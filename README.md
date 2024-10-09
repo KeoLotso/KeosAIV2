@@ -1,6 +1,6 @@
-# Keo's Image AI V2.1
+# Keo's Image AI V2
 
-Welcome to Keo's Image AI V2.1, a web application designed to generate images based on user-defined prompts using an AI model. This application allows you to generate multiple images simultaneously and displays them in a user-friendly library.
+Welcome to Keo's Image AI V2, a web application designed to generate images based on user-defined prompts using an AI model. This application allows you to generate multiple images simultaneously and displays them in a user-friendly library.
 
 ## Website
 
