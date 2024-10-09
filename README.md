@@ -19,10 +19,3 @@ https://keolotso.github.io/KeosAIV2/
 
 - A modern web browser (Chrome, Firefox, Safari, etc.)
 - An internet connection
-
-### Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   git clone https://github.com/yourusername/KeosAI.git
