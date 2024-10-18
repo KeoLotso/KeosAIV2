@@ -30,7 +30,11 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
         finalPrompt = `Create a surreal artwork that defies logic and embraces dreamlike imagery. Use abstract forms, impossible landscapes, and imaginative distortions of reality. The composition should feel otherworldly, blending fantasy and reality in unexpected ways to challenge the viewer's perception. ${basePrompt}`;
     } else if (style === 'darkfantasy') {
         finalPrompt = `Generate a dark fantasy scene with a haunting atmosphere, drawing inspiration from the eerie, gothic worlds popularized on TikTok. Incorporate supernatural creatures, shadowy landscapes, and a sense of foreboding magic. Use a dark color palette with dramatic lighting, creating a mystical yet ominous ambiance. Let the image evoke a feeling of both awe and dread. ${basePrompt}`;
+    } else if (style === 'profile') {
+        finalPrompt = `Generate a A minimalistic, vibrant profile picture with soft gradients, simple shapes, and balanced composition. The style should be modern and abstract, emphasizing clean lines and smooth transitions. Incorporate a color palette that enhances contrast without being overwhelming, suitable for a versatile and appealing profile icon.
+ ${basePrompt}`;
     }
+    
 
     const API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell";
     const API_KEY = "Bearer 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";
